@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada de Mi App Web</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            background-image: url('imagen.jpg'); /* Ruta a tu imagen de fondo */ 
+            background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */ 
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        #finalbanner {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a la App Web de Reconocimiento de Numeros</h1>
+        <p>Una app web interactiva que permite a los usuarios dibujar un dígito del 0 al 9 a mano alzada. <br>
+            Utilizando redes neuronales, la aplicación predice y muestra el número que has dibujado en tiempo real, <br>
+            ofreciendo una experiencia de interacción sencilla y precisa para reconocer números escritos a mano.</p>
+        <a href="index.html" class="button">Empezar</a>
+        
+    </div>
+    <div id="finalbanner">
+        <div>
+            <h5 style="color: #000000;">Realizado por:</h5>
+        </div>
+        <p style="color: #000000;">Russbel Rimualdy Mamani Fernandez <br> Anderson Brian Flores Suaña</p>
+        <p>
+            Puedes encontrar el código fuente en mi 
+            <a href="https://github.com/tu-usuario/tu-repositorio" target="_blank">repositorio de GitHub</a>.
+        </p>
+    </div>
+</body>
+</html>
